@@ -6,7 +6,7 @@ import Galery from "./components/Galery";
 import Footer from "./components/Footer";
 const data = {
 	title: "Adopta un perrito",
-	color: "secondary",
+
 	perros: [
 		{
 			nombre: "Max",

@@ -46,6 +46,7 @@
 	margin: 20px;
 	overflow: hidden;
 	transition: 0.3s;
+	border: #8d8d8d 1px solid;
 }
 
 /* Estilos para la imagen del perrito */
@@ -75,14 +76,17 @@ footer {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
+
+	width: 100%;
 }
 .badge {
 	width: 100%;
 	transition: 0.3s;
+	padding: 7px;
+	border-radius: 0px;
 }
 .badge:hover {
-	opacity: 0.7;
-	cursor: pointer;
+	transform: scale(1.3);
 }
 .card:hover {
 	transform: scale(1.02);
