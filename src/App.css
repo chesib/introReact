@@ -1,0 +1,89 @@
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+	display: flex;
+
+	align-items: center;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	margin: 10px;
+}
+.navbar h2 {
+	color: white;
+	margin-right: auto;
+	padding: 10px;
+	margin-left: 30px;
+}
+/* Cambiar el color de los enlaces cuando se pasa el cursor por encima */
+.navbar a:hover {
+	background-color: #ffffff;
+	color: black;
+}
+.galeria {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	gap: 100px;
+	text-align: center;
+	padding: 50px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+/* Estilos para la imagen del perrito */
+.card img {
+	width: 100%; /* Establece un ancho del 100% */
+	height: 200px; /* Establece una altura fija (ajústala según tus necesidades) */
+	object-fit: cover;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-content {
+	padding: 20px;
+}
+
+/* Estilos para el nombre del perrito */
+.card-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Estilos para la información del perrito */
+.card-info {
+	font-size: 16px;
+}
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.badge {
+	width: 100%;
+	transition: 0.3s;
+}
+.badge:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.card:hover {
+	transform: scale(1.02);
+}
