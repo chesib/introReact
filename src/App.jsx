@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header";
 import React from "react";
@@ -43,9 +42,9 @@ const App = () => {
 	return (
 		<div className="logo">
 			<Header title={data.title}></Header>
-			<main>
+			<div>
 				<Galery perros={data.perros}></Galery>
-			</main>
+			</div>
 			<Footer></Footer>
 		</div>
 	);
